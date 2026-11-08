@@ -1,3 +1,4 @@
+// updated code :
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -6,10 +7,10 @@ int main() {
     cin >> n;
 
     for (int i = 0; i < n; i++) {
-        int x;
-        cin >> x;
+        int ch;
+        cin >> ch;
 
-        if (x == 1) {
+        if (ch == 1) {
             cout << "HARD";
             return 0;
         }
