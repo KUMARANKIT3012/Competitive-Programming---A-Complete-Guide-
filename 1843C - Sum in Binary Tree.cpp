@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+using lli = long long int;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+        lli n;
+        cin >> n;
+
+        lli ans = n;
+
+        while (n) {
+            ans += n / 2;
+            n /= 2;
+        }
+
+        cout << ans << '\n';
+    }
+
+    return 0;
+}
